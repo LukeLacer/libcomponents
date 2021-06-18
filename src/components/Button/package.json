@@ -1,0 +1,12 @@
+{
+  "name": "Button",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo Testing Button component"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
