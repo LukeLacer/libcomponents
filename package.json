@@ -1,5 +1,5 @@
 {
-  "name": "lib-components",
+  "name": "@lukelacer/lib-components",
   "publishConfig": {
     "access": "public"
   },

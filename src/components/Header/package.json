@@ -1,6 +1,6 @@
 {
-  "name": "Header",
-  "version": "1.0.7",
+  "name": "@lukelacer/header",
+  "version": "1.0.2",
   "description": "",
   "main": "index.tsx",
   "scripts": {
@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "847263007797c76f4778056ddacb39ccb6ecd987"
+  "gitHead": "7e1220f4f5a129e7ba0bde421ed139dee0447ffe"
 }
