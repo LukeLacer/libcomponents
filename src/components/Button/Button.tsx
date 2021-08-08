@@ -3,7 +3,7 @@ import React from 'react'
 import { ButtonContainer } from './styles'
 
 interface ButtonProps {
-    color?: string,
+    color?: string
     label?: string
 }
 
