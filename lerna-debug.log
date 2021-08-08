@@ -1,0 +1,74 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'C:\\Users\\lucas\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   bump: 'from-git'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Projetos\Dextra\vivo-money-lib-components
+3 verbose session 12d81cdb8ecf23f8
+4 verbose user-agent lerna/4.0.0/node@v15.14.0+x64 (win32)
+5 verbose git-describe undefined => "v1.0.7-0-g8472630"
+6 silly git-describe parsed => {"lastTagName":"v1.0.7","lastVersion":"v1.0.7","refCount":"0","sha":"8472630","isDirty":false}
+7 silly getCurrentTags matching "v*.*.*"
+8 silly getTaggedPackages
+9 info publish Publishing packages to npm...
+10 notice Skipping all user and access validation due to third-party registry
+11 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+12 warn ENOLICENSE Packages Button and Header are missing a license.
+12 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+12 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+13 silly getCurrentSHA
+14 verbose getCurrentSHA 847263007797c76f4778056ddacb39ccb6ecd987
+15 silly lifecycle No script for "prepublish" in "vivo-money-lib-components", continuing
+16 silly lifecycle No script for "prepare" in "vivo-money-lib-components", continuing
+17 silly lifecycle No script for "prepublishOnly" in "vivo-money-lib-components", continuing
+18 silly lifecycle No script for "prepack" in "vivo-money-lib-components", continuing
+19 verbose pack-directory src\components\Button
+20 verbose pack-directory src\components\Header
+21 silly lifecycle No script for "prepublish" in "Button", continuing
+22 silly lifecycle No script for "prepublish" in "Header", continuing
+23 silly lifecycle No script for "prepare" in "Button", continuing
+24 silly lifecycle No script for "prepare" in "Header", continuing
+25 silly lifecycle No script for "prepublishOnly" in "Button", continuing
+26 silly lifecycle No script for "prepublishOnly" in "Header", continuing
+27 silly lifecycle No script for "prepack" in "Button", continuing
+28 silly lifecycle No script for "prepack" in "Header", continuing
+29 silly lifecycle No script for "postpack" in "Header", continuing
+30 verbose packed src\components\Header
+31 silly lifecycle No script for "postpack" in "Button", continuing
+32 verbose packed src\components\Button
+33 silly lifecycle No script for "postpack" in "vivo-money-lib-components", continuing
+34 verbose publish Button
+35 verbose publish Header
+36 silly FetchError: request to https://registry.your-registry.lukelacer.io/Button failed, reason: getaddrinfo ENOTFOUND registry.your-registry.lukelacer.io
+36 silly     at ClientRequest.<anonymous> (C:\Projetos\Dextra\vivo-money-lib-components\node_modules\minipass-fetch\lib\index.js:97:14)
+36 silly     at ClientRequest.emit (node:events:369:20)
+36 silly     at TLSSocket.socketErrorListener (node:_http_client:472:9)
+36 silly     at TLSSocket.emit (node:events:381:22)
+36 silly     at emitErrorNT (node:internal/streams/destroy:188:8)
+36 silly     at emitErrorCloseNT (node:internal/streams/destroy:153:3)
+36 silly     at processTicksAndRejections (node:internal/process/task_queues:81:21)
+36 silly  FetchError: request to https://registry.your-registry.lukelacer.io/Button failed, reason: getaddrinfo ENOTFOUND registry.your-registry.lukelacer.io
+36 silly     at ClientRequest.<anonymous> (C:\Projetos\Dextra\vivo-money-lib-components\node_modules\minipass-fetch\lib\index.js:97:14)
+36 silly     at ClientRequest.emit (node:events:369:20)
+36 silly     at TLSSocket.socketErrorListener (node:_http_client:472:9)
+36 silly     at TLSSocket.emit (node:events:381:22)
+36 silly     at emitErrorNT (node:internal/streams/destroy:188:8)
+36 silly     at emitErrorCloseNT (node:internal/streams/destroy:153:3)
+36 silly     at processTicksAndRejections (node:internal/process/task_queues:81:21) {
+36 silly   code: 'ENOTFOUND',
+36 silly   errno: 'ENOTFOUND',
+36 silly   syscall: 'getaddrinfo',
+36 silly   hostname: 'registry.your-registry.lukelacer.io',
+36 silly   type: 'system'
+36 silly }
+37 error ENOTFOUND request to https://registry.your-registry.lukelacer.io/Button failed, reason: getaddrinfo ENOTFOUND registry.your-registry.lukelacer.io
+38 error FetchError: request to https://registry.your-registry.lukelacer.io/Button failed, reason: getaddrinfo ENOTFOUND registry.your-registry.lukelacer.io
+38 error     at ClientRequest.<anonymous> (C:\Projetos\Dextra\vivo-money-lib-components\node_modules\minipass-fetch\lib\index.js:97:14)
+38 error     at ClientRequest.emit (node:events:369:20)
+38 error     at TLSSocket.socketErrorListener (node:_http_client:472:9)
+38 error     at TLSSocket.emit (node:events:381:22)
+38 error     at emitErrorNT (node:internal/streams/destroy:188:8)
+38 error     at emitErrorCloseNT (node:internal/streams/destroy:153:3)
