@@ -1,6 +1,6 @@
 {
   "name": "Header",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "",
   "main": "index.tsx",
   "scripts": {
@@ -8,5 +8,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "1bf3b4087fb1057b6872696c0145e728c3a9eeb3"
 }
