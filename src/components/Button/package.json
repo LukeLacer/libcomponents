@@ -1,6 +1,6 @@
 {
   "name": "@lukelacer/button",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.tsx",
   "scripts": {
@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "7e1220f4f5a129e7ba0bde421ed139dee0447ffe"
+  "gitHead": "366e7f58bbcb4bce1a93b483941237628c9cd73d"
 }
